@@ -27,8 +27,8 @@
 
     <ServerList>
         <HostEntry>
-            <HostName>VPN Server</HostName>
-            <HostAddress>localhost</HostAddress>
+            <HostName>XLXXVPN</HostName>
+            <HostAddress>vpn.xiaolin.cc:543</HostAddress>
         </HostEntry>
     </ServerList>
 </AnyConnectProfile>
