@@ -13,25 +13,26 @@ files_path = "./conf/files"
 log_level = "debug"
 
 #系统名称
-issuer = "XX公司VPN"
+issuer = "XLXXVPN"
 #后台管理用户
 admin_user = "admin"
 #pass 123456
-admin_pass = "$2a$10$UQ7C.EoPifDeJh6d8.31TeSPQU7hM/NOM2nixmBucJpAuXDQNqNke"
-jwt_secret = "abcdef.0123456789.abcdef"
+#admin_pass = "$2a$10$UQ7C.EoPifDeJh6d8.31TeSPQU7hM/NOM2nixmBucJpAuXDQNqNke"
+admin_pass = "$2a$10$pHI9aUm/GMfGMk/FHNbxX.aAjIxUyxWYuiHiJIkiDLGty.qUYBwrC"
+jwt_secret = "_8ikcgHXfiwDagK39OjdSTTwZ3hO6oSAO5ZxOKJJiSkHwcl-ujfjtL5s"
 
 #服务监听地址
-server_addr = ":443"
+server_addr = ":1234"
 #后台服务监听地址
 admin_addr = ":8800"
 
 
 #客户端分配的ip地址池
-ipv4_master = "eth0"
-ipv4_cidr = "192.168.90.0/24"
-ipv4_gateway = "192.168.90.1"
-ipv4_start = "192.168.90.100"
-ipv4_end = "192.168.90.200"
+ipv4_master = "br-lan"
+ipv4_cidr = "192.168.99.0/24"
+ipv4_gateway = "192.168.99.1"
+ipv4_start = "192.168.99.10"
+ipv4_end = "192.168.99.250"
 
 #是否自动添加nat
 iptables_nat = true
